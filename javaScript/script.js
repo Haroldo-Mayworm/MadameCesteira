@@ -35,3 +35,12 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+// galeria
+new SimpleSlide({
+  slide: 'portfolio', // nome do atributo data-slide="principal"
+  nav: true, // se deve ou não mostrar a navegação
+  auto: true, // se o slide deve passar automaticamente
+  time: 2700, // tempo de transição dos slides
+});
