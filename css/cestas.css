@@ -1,0 +1,80 @@
+/* Cestas de natal */
+.cesta-basica {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.cesta-basica h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.cesta-basica ul {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.cesta-basica li {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.cesta-basica img {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cesta-basica h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.cesta-basica p {
+  margin-bottom: 5px;
+}
+
+.btn-cesta {
+  border: none;
+  background-color: #FBF9F5;
+  padding: 0;
+}
+
+.btn-cesta img {
+  width: 25px;
+  height: 25px;
+}
+
+.btn-cesta a {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding: 20px 35px 0 30px;
+}
+
+.btn-cesta {
+  display: inline-block;
+  position: relative;
+  background: #A50612;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+.btn-cesta p {
+  padding-top: 5px;
+}
+
+.cesta-preco {
+  display: block;
+  font-weight: 800;
+  font-size: 1.75rem;
+  color: #A50612;
+  margin-bottom: 7px;
+}

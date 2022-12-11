@@ -1,0 +1,41 @@
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.header-img {
+  margin-bottom: 13rem;
+  padding: 20px 0;
+  position: absolute;
+  max-width: 8rem;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background: #000;
+  position: absolute;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 40px;
+}
+
+#btn-mobile {
+  display: none;
+}

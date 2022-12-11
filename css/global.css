@@ -1,0 +1,64 @@
+/* GLOBAL */
+body {
+  margin: 0px;
+  background-color: #FBF9F5;
+  color: #111111;
+  font-family: 'Playfair Display', serif;
+  margin-top: 10rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Utilitarios */
+.container {
+  box-sizing: border-box;
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.titulo-grande {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #A50612;
+}
+
+/* efeito zoom */
+.zoom {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.zoom:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
